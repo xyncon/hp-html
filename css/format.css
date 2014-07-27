@@ -50,6 +50,12 @@ padding: 10px;
 font-size: 14px;
 }
 
+
+#content div table tr td:nth-child(1) {
+  width: 80px;
+  vertical-align: top;
+}
+
 #content div:nth-child(2) {
   width: 232px; 
   float: left;
@@ -65,7 +71,7 @@ font-size: 14px;
 #content div:nth-child(4) {
   width: 193px;
   height: 200px;
-  padding: 194px 19px 19px 28px;
+  padding: 203px 19px 19px 28px;
 }
 
 #content div:nth-child(4) div {
@@ -82,6 +88,7 @@ font-size: 14px;
 
 #content div:nth-child(3) div:nth-child(1) ul {
   padding: 0px;
+  margin-top: 0px;
 }
 
 #content div:nth-child(3) div:nth-child(1) ul li {
@@ -123,6 +130,7 @@ font-size: 14px;
 
 #content div:nth-child(3) div:nth-child(2) ul {
   padding: 0px;
+  margin-top: 1px;
 }
 
 #content div:nth-child(3) div:nth-child(2) ul li {
@@ -167,6 +175,7 @@ font-size: 14px;
 }
 
 /* Elements */
+
 #title {
   width: 50%;
   float: left;
@@ -247,3 +256,10 @@ h2.title {
 .activeImp {
   color: #FF8000;
 }
+
+.vita {
+  height: 410px;
+  width: 601px;
+  overflow-y: scroll;
+}
+
